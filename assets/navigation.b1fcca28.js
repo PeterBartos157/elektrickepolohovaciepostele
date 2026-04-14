@@ -1,0 +1,1 @@
+import{$ as r,d as s,a0 as u,g as l}from"./index.6e1b9c2f.js";function m(){let e=null;const t=l();function o(){e!==null&&(clearTimeout(e),e=null)}return r(o),s(o),{removeTimeout:o,registerTimeout(n,i){o(),u(t)===!1&&(e=setTimeout(()=>{e=null,n()},i))}}}class c{static getBaseUrl(t=""){return t||(t="/elektrickepolohovaciepostele"),window.location.origin+t}}export{c as N,m as u};
